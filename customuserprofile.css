@@ -1,0 +1,182 @@
+[class*='icon-'][class*='aboutMeGuildIcon-'] {
+    display: none;
+  }
+  
+  :root {
+    --custom-profile-color: rgb(250, 93, 216);
+    --custom-profile-color-secondary: rgb(250, 93, 216);
+    --custom-profile-gradient: linear-gradient(
+      180deg,
+      var(--custom-profile-color) 0%,
+      var(--custom-profile-color-secondary) 100%
+    );
+  }
+  
+  .section-28YDOf > div,
+  .container-3g15px,
+  .userInfoText-2MFCmH {
+    border-radius: 1rem;
+    padding: 0.5em;
+    border: 3px solid var(--custom-profile-color);
+  }
+  
+  .profileColors-2AgAV4 .containerWithContent-2Yws8V {
+    border-radius: 1rem;
+    padding: 0.5em;
+    border: 3px solid var(--custom-profile-color);
+  }
+  
+  .section-28YDOf > div:not([class*='activityUserPopoutV2-']),
+  .container-3g15px,
+  .userInfoText-2MFCmH,
+  .memberSinceContainer-2CBD23,
+  [class*='info-'][class*='nameTag-'],
+  img[class*='emoji-'] {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .theme-dark .section-28YDOf > div,
+  .theme-dark .container-3g15px,
+  .theme-dark .userInfoText-2MFCmH,
+  .theme-dark .memberSinceContainer-2CBD23 > div {
+    backdrop-filter: brightness(1.5);
+  }
+  
+  .theme-light .section-28YDOf > div,
+  .theme-light .container-3g15px,
+  .theme-light .userInfoText-2MFCmH,
+  .theme-light .memberSinceContainer-2CBD23 > div {
+    backdrop-filter: brightness(0.925) saturate(1.5);
+  }
+  
+  .divider-MZkkle {
+    background: var(--profile-body-divider-color);
+  }
+  
+  .platformIcon-k3yytQ {
+    margin: 2px 2px;
+  }
+  
+  /* -- User Panel -- */
+  
+  .bannerSVGWrapper-2CLfzN {
+    border-radius: 12px 12px 0 0;
+  }
+  .bannerSVGWrapper-2CLfzN circle {
+    cx: 50%;
+  }
+  .avatarWrapper-eenWra {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+  }
+  
+  .nameTag-sc-gpq.canCopy-IgTwyV {
+    margin-left: 5px;
+  }
+  
+  .container-YkUktl {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 0.7px;
+    padding: 1px;
+    margin: 0;
+    border-radius: 0.999rem;
+    border: 3px solid rgb(250, 93, 216);
+    background: var(--background-tertiary) !important;
+  }
+  
+  .container-YkUktl button {
+    background: var(--background-tertiary);
+    height: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 19rem;
+    border: 2px solid rgb(250, 93, 216);
+  }
+  
+  .container-1zzFcN {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: unset;
+  }
+  
+  .actionButtons-2vEOUh {
+    display: flexbox;
+    order: -1;
+    box-sizing: border-box;
+    gap: 0;
+    padding-top: 0;
+  }
+  
+  .button-1EGGcP.buttonColor-3bP3fX {
+    height: 40px;
+  }
+  
+  .panels-3wFtMD {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 13.5px;
+    box-shadow: -8px 8px 0px 0px hsl(var(--primary-700-hsl) / 0.25),
+      0 0 1px 1px hsl(var(--primary-700-hsl) / 0.5);
+    overflow: hidden;
+    scale: 0.925;
+  }
+  
+  .container-YkUktl > .avatarWrapper-1B9FTW {
+    width: 100%;
+    padding: 0 65px;
+    box-sizing: border-box;
+    height: 50px;
+    margin: 0;
+  }
+  .panels-3wFtMD .container-YkUktl .flex-2S1XBF {
+    width: 100%;
+    justify-content: center;
+    gap: 0px;
+  }
+  
+  .container-YkUktl .button-ejjZWC .contents-3NembX {
+    color: var(--interactive-muted);
+  }
+  .container-YkUktl .button-ejjZWC:hover .contents-3NembX {
+    color: var(--interactive-hover);
+  }
+  
+  .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+    border-radius: unset;
+    background: transparent;
+    color: var(--interactive-muted);
+  }
+  .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+    color: var(--interactive-hover);
+  }
+  
+  .connection-3k9QeF,
+  .voiceUsers-3gPcwY {
+    padding: 0.5em 0.75em;
+  }
+  .userProfileOuterUnthemed-11rPfA {
+    padding: 4px;
+    border-radius: 16px;
+    background: var(--custom-profile-gradient);
+  }
+  .userPopoutInner-nv9Y92 {
+    border-radius: 12px;
+    background: linear-gradient(
+      180deg,
+      rgb(0, 0, 0, 0.4) 0%,
+      rgb(0, 0, 0, 0.8) 100%
+    );
+  }
+  .overlayBackground-2aa7wt {
+    margin: 10px;
+    margin-top: 16px;
+    background: rgb(0, 0, 0, 0.4);
+    border-radius: 8px;
+  }
+  
