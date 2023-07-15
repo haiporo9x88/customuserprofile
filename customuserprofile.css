@@ -1,61 +1,41 @@
-[class*='icon-'][class*='aboutMeGuildIcon-'] {
-    display: none;
-  }
-  
-  :root {
-    --custom-profile-color: rgb(250, 93, 216);
-    --custom-profile-color-secondary: rgb(250, 93, 216);
-    --custom-profile-gradient: linear-gradient(
-      180deg,
-      var(--custom-profile-color) 0%,
-      var(--custom-profile-color-secondary) 100%
-    );
-  }
-  
-  .section-28YDOf > div,
-  .container-3g15px,
-  .userInfoText-2MFCmH {
-    border-radius: 1rem;
-    padding: 0.5em;
-    border: 3px solid var(--custom-profile-color);
-  }
-  
-  .profileColors-2AgAV4 .containerWithContent-2Yws8V {
-    border-radius: 1rem;
-    padding: 0.5em;
-    border: 3px solid var(--custom-profile-color);
-  }
-  
-  .section-28YDOf > div:not([class*='activityUserPopoutV2-']),
-  .container-3g15px,
-  .userInfoText-2MFCmH,
-  .memberSinceContainer-2CBD23,
-  [class*='info-'][class*='nameTag-'],
-  img[class*='emoji-'] {
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .theme-dark .section-28YDOf > div,
-  .theme-dark .container-3g15px,
-  .theme-dark .userInfoText-2MFCmH,
-  .theme-dark .memberSinceContainer-2CBD23 > div {
-    backdrop-filter: brightness(1.5);
-  }
-  
-  .theme-light .section-28YDOf > div,
-  .theme-light .container-3g15px,
-  .theme-light .userInfoText-2MFCmH,
-  .theme-light .memberSinceContainer-2CBD23 > div {
-    backdrop-filter: brightness(0.925) saturate(1.5);
-  }
-  
-  .divider-MZkkle {
-    background: var(--profile-body-divider-color);
-  }
-  
-  .platformIcon-k3yytQ {
-    margin: 2px 2px;
-  }
-  
-  
+[class*=profileBadges-] {
+  background-color: transparent !important;
+  position: relative;
+  align-self: center;
+  margin-top: 10px;
+  top: 25px;
+  left: 0; right: 0;
+  max-width: 100%;
+} 
+
+.bannerSVGWrapper-2CLfzN circle{
+  cx: 50%;
+}
+.avatarWrapper-eenWra, .avatar-3QF_VA {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.badgeList-2aoHPw
+{
+  position: relative;
+  align-self: center;
+  margin-top: 10px;
+  right: 25%;
+}
+
+.headerTop-1PNKck
+{
+  top: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.relationshipButtons-3ByBpj
+{
+  position: relative;
+  align-self: center;
+  margin-top: 10px;
+  right: 25%;
+}
